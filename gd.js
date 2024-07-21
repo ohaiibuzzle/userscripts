@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 (function() {
-    let hardOverlay = document.getElementById('ContentWallHardsell');
+    let hardOverlay = document.getElementById('Cont' + 'entW' + 'allH' + 'ardsell');
     if (hardOverlay) {
         hardOverlay.remove();
     }
